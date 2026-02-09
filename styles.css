@@ -1,136 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage</title>
+    <title>Your Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- Header Section -->
+    <!-- ========== Header Section ========== -->
     <header>
         <div class="container">
             <div class="logo">
-                <h1>My Website</h1>
+                <h1>Your Logo</h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Attractions</a></li>
+                    <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <div class="hero">
+    <!-- ========== Hero Section ========== -->
+    <section class="hero">
         <div class="hero-content">
             <h2>Welcome to Our Website</h2>
-            <p>Explore the beauty of Lampang</p>
+            <p>Discover our amazing services</p>
             <a href="#" class="btn">Learn More</a>
         </div>
-    </div>
+    </section>
 
-    <!-- About Section -->
+    <!-- ========== Content Section ========== -->
     <section class="about">
         <div class="container">
             <div class="content-wrapper">
                 <div class="content-text">
                     <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt nunc orci, sit amet laoreet augue elementum et. Donec volutpat metus eu ante pharetra, at pharetra eros scelerisque.</p>
-                    <p>Nullam feugiat feugiat orci, id laoreet arcu sollicitudin in. Quisque in mi id urna varius laoreet sit amet sit amet ligula. Vivamus tempor malesuada tortor, a fermentum metus aliquam a.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor vel ligula a mollis.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/lampang2.jpg" alt="Lampang Image">
+                    <img src="images/about-image.jpg" alt="About Us Image">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Attractions Section -->
-    <section class="attractions">
-        <div class="container">
-            <div class="attraction-item">
-                <div class="attraction-image">
-                    <img src="images/attraction1.jpg" alt="Attraction 1">
-                </div>
-                <div class="attraction-content">
-                    <h3>Attraction 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet venenatis mi, non auctor felis.</p>
-                </div>
-            </div>
-            <div class="attraction-item">
-                <div class="attraction-image">
-                    <img src="images/attraction2.jpg" alt="Attraction 2">
-                </div>
-                <div class="attraction-content">
-                    <h3>Attraction 2</h3>
-                    <p>Proin sollicitudin justo a nulla tempus, vel sodales felis rhoncus. In sollicitudin placerat odio vel tincidunt.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact-section">
-        <div class="container">
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Contact Us</h3>
-                    <p>If you have any questions, feel free to reach out to us. We'd love to hear from you!</p>
-                </div>
-                <div class="contact-form">
-                    <form action="#" method="POST">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
+    <!-- ========== Footer Section ========== -->
     <footer>
-        <div class="footer-content">
+        <div class="footer-content container">
             <div class="footer-section">
-                <h3>About Us</h3>
-                <p>We are dedicated to showcasing the beauty and culture of Lampang. Join us in exploring the region.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Links</h3>
+                <h3>Quick Links</h3>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Attractions</a></li>
+                    <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h3>Contact</h3>
-                <p>123 Lampang Rd, Lampang, Thailand</p>
-                <p>Email: info@lampang.com</p>
-                <p>Phone: +66 123 456 789</p>
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Email: example@example.com</li>
+                    <li>Address: 1234 Street Name, City, Country</li>
+                </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Lampang Tourism. All rights reserved.</p>
+            <p>&copy; 2026 Your Website. All Rights Reserved.</p>
         </div>
     </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ========== Header Section ========== -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Your Logo</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== Hero Section ========== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Our Website</h2>
+            <p>Discover our amazing services</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- ========== Footer Section ========== -->
+    <footer>
+        <div class="footer-content container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Email: example@example.com</li>
+                    <li>Address: 1234 Street Name, City, Country</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Your Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ของฉัน</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ========== Section Title ========== -->
+    <section class="section-title">
+        <h2>เกี่ยวกับเรา</h2>
+    </section>
+
+    <!-- ========== About Section ========== -->
+    <section class="about">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <p>
+                        เราคือบริษัทที่มุ่งเน้นการพัฒนาและนำเสนอบริการที่มีคุณภาพสูงเพื่อให้
+                        ลูกค้าของเราได้รับประสบการณ์ที่ดีที่สุด ไม่ว่าจะเป็นในด้านการให้คำปรึกษา
+                        การออกแบบ หรือการพัฒนาเทคโนโลยี เรามุ่งหวังที่จะเป็นผู้นำในอุตสาหกรรมนี้
+                        โดยการทำงานอย่างมืออาชีพและสร้างสรรค์
+                    </p>
+                    <p>
+                        ทีมงานของเรามีความชำนาญและประสบการณ์ในหลายๆ ด้าน เพื่อที่จะให้บริการที่
+                        เหมาะสมและตรงตามความต้องการของลูกค้า
+                    </p>
+                </div>
+                <div class="content-image">
+                    <img src="images/about-us.jpg" alt="เกี่ยวกับเรา">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractions Section</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* โค้ด CSS ที่แปลงจากส่วนที่คุณให้มา */
+        .attractions {
+            padding: 80px 0;
+        }
+
+        .attraction-item {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 60px;
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .attraction-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .attraction-item.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .attraction-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .attraction-image:hover img {
+            transform: scale(1.05);
+        }
+
+        .attraction-content {
+            flex: 1;
+        }
+
+        .attraction-content h3 {
+            font-size: 28px;
+            color: #8B4513;
+            margin-bottom: 20px;
+        }
+
+        .attraction-content p {
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ========== Attractions Section ========== -->
+    <section class="attractions">
+        <div class="container">
+            <div class="attraction-item">
+                <div class="attraction-content">
+                    <h3>น้ำตกห้วยแม่ขมิ้น</h3>
+                    <p>น้ำตกห้วยแม่ขมิ้น เป็นน้ำตกที่ตั้งอยู่ในเขตอุทยานแห่งชาติแม่วงก์ ภายในมีธรรมชาติที่สมบูรณ์แบบ และมีสายน้ำตกที่ไหลลงมาสูงชัน สร้างความตื่นตาตื่นใจให้แก่ผู้ที่มาชม</p>
+                </div>
+                <div class="attraction-image">
+                    <img src="images/waterfall.jpg" alt="น้ำตกห้วยแม่ขมิ้น">
+                </div>
+            </div>
+
+            <div class="attraction-item reverse">
+                <div class="attraction-content">
+                    <h3>วัดพระธาตุศรีจอมทอง</h3>
+                    <p>วัดพระธาตุศรีจอมทอง เป็นสถานที่สำคัญทางศาสนาในจังหวัดเชียงใหม่ ภายในวัดมีพระธาตุที่เป็นที่เคารพนับถือของพุทธศาสนิกชน นอกจากนี้ยังมีวิวที่สวยงามของเมืองเชียงใหม่</p>
+                </div>
+                <div class="attraction-image">
+                    <img src="images/wat.jpg" alt="วัดพระธาตุศรีจอมทอง">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* โค้ด CSS ที่แปลงจากส่วนที่คุณให้มา */
+        .detail-hero {
+            background: linear-gradient(rgba(244, 164, 96, 0.8), rgba(210, 105, 30, 0.8)),
+                url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1600&h=400&fit=crop') center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .detail-hero h2 {
+            font-size: 42px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .detail-content {
+            padding: 80px 0;
+            background-color: white;
+        }
+
+        .info-box {
+            background-color: #FFF8DC;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #F4A460;
+            margin: 30px 0;
+        }
+
+        .info-box h3 {
+            color: #8B4513;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .info-box p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .btn-link {
+            display: inline-block;
+            color: #F4A460;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-link:hover {
+            color: #D2691E;
+            transform: translateX(5px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ========== Detail Hero Section ========== -->
+    <section class="detail-hero">
+        <h2>สถานที่ท่องเที่ยวห้วยแม่ขมิ้น</h2>
+    </section>
+
+    <!-- ========== Detail Content Section ========== -->
+    <section class="detail-content">
+        <div class="container">
+            <div class="info-box">
+                <h3>ข้อมูลทั่วไป</h3>
+                <p>น้ำตกห้วยแม่ขมิ้น เป็นน้ำตกที่ตั้งอยู่ในเขตอุทยานแห่งชาติแม่วงก์ เป็นสถานที่ท่องเที่ยวที่มีความสวยงาม และอยู่ท่ามกลางธรรมชาติที่สมบูรณ์แบบ มีเส้นทางเดินป่าและกิจกรรมที่น่าสนใจสำหรับนักท่องเที่ยวที่ชื่นชอบการผจญภัยในธรรมชาติ</p>
+                <a href="#" class="btn-link">อ่านเพิ่มเติม</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สถานที่ท่องเที่ยว - รายละเอียด</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* โค้ด CSS ที่แปลงจากส่วนที่คุณให้มา */
+        .info-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info-box ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 16px;
+        }
+
+        .info-box ul li:last-child {
+            border-bottom: none;
+        }
+
+        .info-box ul li::before {
+            content: "✓ ";
+            color: #F4A460;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-section {
+            padding: 80px 0;
+        }
+
+        .contact-container {
+            display: flex;
+            gap: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ========== Information Box ========== -->
+    <section class="info-box">
+        <h3>สิ่งที่คุณจะพบ</h3>
+        <ul>
+            <li>น้ำตกห้วยแม่ขมิ้น</li>
+            <li>การเดินป่าที่น่าสนใจ</li>
+            <li>กิจกรรมผจญภัยต่างๆ</li>
+            <li>ทิวทัศน์ที่สวยงาม</li>
+        </ul>
+    </section>
+
+    <!-- ========== Gallery Section ========== -->
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/600x400" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/600x400" alt="Gallery Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/600x400" alt="Gallery Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/600x400" alt="Gallery Image 4">
+        </div>
+    </section>
+
+    <!-- ========== Contact Section ========== -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>ติดต่อเรา</h3>
+                <p>หากคุณมีคำถามหรือข้อสงสัยเกี่ยวกับสถานที่ท่องเที่ยวห้วยแม่ขมิ้น โปรดติดต่อเราผ่านข้อมูลด้านล่าง:</p>
+                <p>โทร: 098-765-4321</p>
+                <p>Email: example@example.com</p>
+            </div>
+            <div class="contact-form">
+                <h3>ฟอร์มติดต่อ</h3>
+                <form action="#">
+                    <label for="name">ชื่อ:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">อีเมล:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">ข้อความ:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">ส่งข้อความ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
