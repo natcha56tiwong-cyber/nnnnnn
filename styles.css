@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Your Logo</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Our Website</h2>
+            <p>Explore the beauty of Lampang and more</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Curabitur eget libero sit amet orci varius tincidunt. Sed vestibulum libero a leo condimentum, in aliquet justo vehicula.</p>
+                </div>
+                <div class="content-image">
+                    <img src="images/lampang2.jpg" alt="About Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section class="attractions">
+        <div class="container">
+            <h2 class="section-title">Popular Attractions</h2>
+            <div class="attraction-item">
+                <div class="attraction-image">
+                    <img src="images/attraction1.jpg" alt="Attraction 1">
+                </div>
+                <div class="attraction-content">
+                    <h3>Attraction 1</h3>
+                    <p>Description of the attraction.</p>
+                    <a href="#" class="btn-link">Explore More</a>
+                </div>
+            </div>
+            <div class="attraction-item">
+                <div class="attraction-image">
+                    <img src="images/attraction2.jpg" alt="Attraction 2">
+                </div>
+                <div class="attraction-content">
+                    <h3>Attraction 2</h3>
+                    <p>Description of the attraction.</p>
+                    <a href="#" class="btn-link">Explore More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li>Address: Your Address Here</li>
+                        <li>Phone: 123-456-7890</li>
+                        <li>Email: info@yourwebsite.com</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form action="#" method="POST">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Your Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
