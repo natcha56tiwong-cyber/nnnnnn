@@ -1,114 +1,136 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เว็บไซต์ตัวอย่าง</title>
+    <title>Webpage</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- ========== Header และ Navigation ========== -->
+    <!-- Header Section -->
     <header>
         <div class="container">
             <div class="logo">
-                <h1>ชื่อเว็บไซต์</h1>
+                <h1>My Website</h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#" class="active">หน้าหลัก</a></li>
-                    <li><a href="#">เกี่ยวกับเรา</a></li>
-                    <li><a href="#">บริการ</a></li>
-                    <li><a href="#">ติดต่อเรา</a></li>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Attractions</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- ========== Hero Section ========== -->
-    <section class="hero">
+    <!-- Hero Section -->
+    <div class="hero">
         <div class="hero-content">
-            <h2>ยินดีต้อนรับสู่เว็บไซต์ของเรา</h2>
-            <p>เรามีบริการที่หลากหลายเพื่อช่วยให้คุณประสบความสำเร็จ</p>
-            <a href="#" class="btn">เรียนรู้เพิ่มเติม</a>
+            <h2>Welcome to Our Website</h2>
+            <p>Explore the beauty of Lampang</p>
+            <a href="#" class="btn">Learn More</a>
         </div>
-    </section>
+    </div>
 
-    <!-- ========== About Section ========== -->
+    <!-- About Section -->
     <section class="about">
         <div class="container">
             <div class="content-wrapper">
                 <div class="content-text">
-                    <h2>เกี่ยวกับเรา</h2>
-                    <p>เราคือบริษัทที่ให้บริการต่างๆ ที่ช่วยให้ธุรกิจของคุณเติบโต เรามีทีมงานที่มีความเชี่ยวชาญและพร้อมที่จะช่วยเหลือคุณในทุกๆ ด้าน</p>
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt nunc orci, sit amet laoreet augue elementum et. Donec volutpat metus eu ante pharetra, at pharetra eros scelerisque.</p>
+                    <p>Nullam feugiat feugiat orci, id laoreet arcu sollicitudin in. Quisque in mi id urna varius laoreet sit amet sit amet ligula. Vivamus tempor malesuada tortor, a fermentum metus aliquam a.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/about-image.jpg" alt="เกี่ยวกับเรา">
+                    <img src="images/lampang2.jpg" alt="Lampang Image">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========== Contact Section ========== -->
+    <!-- Attractions Section -->
+    <section class="attractions">
+        <div class="container">
+            <div class="attraction-item">
+                <div class="attraction-image">
+                    <img src="images/attraction1.jpg" alt="Attraction 1">
+                </div>
+                <div class="attraction-content">
+                    <h3>Attraction 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet venenatis mi, non auctor felis.</p>
+                </div>
+            </div>
+            <div class="attraction-item">
+                <div class="attraction-image">
+                    <img src="images/attraction2.jpg" alt="Attraction 2">
+                </div>
+                <div class="attraction-content">
+                    <h3>Attraction 2</h3>
+                    <p>Proin sollicitudin justo a nulla tempus, vel sodales felis rhoncus. In sollicitudin placerat odio vel tincidunt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section class="contact-section">
         <div class="container">
             <div class="contact-container">
                 <div class="contact-info">
-                    <h3>ติดต่อเรา</h3>
-                    <p>หากคุณมีคำถามหรือต้องการข้อมูลเพิ่มเติม โปรดติดต่อเราได้ที่นี่</p>
-                    <ul>
-                        <li>โทรศัพท์: 123-456-7890</li>
-                        <li>อีเมล์: contact@website.com</li>
-                        <li>ที่อยู่: ถนน XYZ, กรุงเทพมหานคร</li>
-                    </ul>
+                    <h3>Contact Us</h3>
+                    <p>If you have any questions, feel free to reach out to us. We'd love to hear from you!</p>
                 </div>
                 <div class="contact-form">
-                    <form action="#">
+                    <form action="#" method="POST">
                         <div class="form-group">
-                            <label for="name">ชื่อ</label>
+                            <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">อีเมล์</label>
+                            <label for="email">Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">ข้อความ</label>
+                            <label for="message">Message</label>
                             <textarea id="message" name="message" required></textarea>
                         </div>
-                        <button type="submit" class="submit-btn">ส่งข้อความ</button>
+                        <button type="submit" class="submit-btn">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========== Footer ========== -->
+    <!-- Footer Section -->
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>เกี่ยวกับเรา</h3>
-                <p>เราคือบริษัทที่ให้บริการต่างๆ ที่ช่วยให้ธุรกิจของคุณเติบโต</p>
+                <h3>About Us</h3>
+                <p>We are dedicated to showcasing the beauty and culture of Lampang. Join us in exploring the region.</p>
             </div>
             <div class="footer-section">
-                <h3>ลิงค์สำคัญ</h3>
+                <h3>Links</h3>
                 <ul>
-                    <li><a href="#">หน้าหลัก</a></li>
-                    <li><a href="#">เกี่ยวกับเรา</a></li>
-                    <li><a href="#">บริการ</a></li>
-                    <li><a href="#">ติดต่อเรา</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Attractions</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h3>ติดต่อเรา</h3>
-                <ul>
-                    <li>โทรศัพท์: 123-456-7890</li>
-                    <li>อีเมล์: contact@website.com</li>
-                </ul>
+                <h3>Contact</h3>
+                <p>123 Lampang Rd, Lampang, Thailand</p>
+                <p>Email: info@lampang.com</p>
+                <p>Phone: +66 123 456 789</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 เว็บไซต์ของเรา | ทุกสิทธิ์สงวน</p>
+            <p>&copy; 2026 Lampang Tourism. All rights reserved.</p>
         </div>
     </footer>
 </body>
+
 </html>
