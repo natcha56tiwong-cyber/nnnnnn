@@ -3,88 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>เว็บไซต์ตัวอย่าง</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <!-- ========== Header และ Navigation ========== -->
     <header>
         <div class="container">
             <div class="logo">
-                <h1>Logo</h1>
+                <h1>ชื่อเว็บไซต์</h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#hero" class="active">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#attractions">Attractions</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="active">หน้าหลัก</a></li>
+                    <li><a href="#">เกี่ยวกับเรา</a></li>
+                    <li><a href="#">บริการ</a></li>
+                    <li><a href="#">ติดต่อเรา</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <!-- ========== Hero Section ========== -->
-    <section class="hero" id="hero">
+    <section class="hero">
         <div class="hero-content">
             <h2>ยินดีต้อนรับสู่เว็บไซต์ของเรา</h2>
-            <p>สำรวจสถานที่ท่องเที่ยวที่ดีที่สุดในลำปาง</p>
-            <a href="#attractions" class="btn">ดูเพิ่มเติม</a>
+            <p>เรามีบริการที่หลากหลายเพื่อช่วยให้คุณประสบความสำเร็จ</p>
+            <a href="#" class="btn">เรียนรู้เพิ่มเติม</a>
         </div>
     </section>
 
     <!-- ========== About Section ========== -->
-    <section class="about" id="about">
+    <section class="about">
         <div class="container">
             <div class="content-wrapper">
                 <div class="content-text">
-                    <h3>เกี่ยวกับเรา</h3>
-                    <p>เราคือทีมงานที่มีความมุ่งมั่นในการให้ข้อมูลท่องเที่ยวที่ดีที่สุดและเป็นประโยชน์แก่ผู้ที่ต้องการไปเที่ยวลำปาง.</p>
+                    <h2>เกี่ยวกับเรา</h2>
+                    <p>เราคือบริษัทที่ให้บริการต่างๆ ที่ช่วยให้ธุรกิจของคุณเติบโต เรามีทีมงานที่มีความเชี่ยวชาญและพร้อมที่จะช่วยเหลือคุณในทุกๆ ด้าน</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/about.jpg" alt="About Us">
+                    <img src="images/about-image.jpg" alt="เกี่ยวกับเรา">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========== Attractions Section ========== -->
-    <section class="attractions" id="attractions">
-        <h2 class="section-title">สถานที่ท่องเที่ยว</h2>
-        <div class="attraction-item">
-            <img src="images/attraction1.jpg" alt="Attraction 1">
-            <div class="attraction-content">
-                <h3>สถานที่ท่องเที่ยว 1</h3>
-                <p>รายละเอียดเกี่ยวกับสถานที่ท่องเที่ยว 1</p>
-            </div>
-        </div>
-        <div class="attraction-item">
-            <img src="images/attraction2.jpg" alt="Attraction 2">
-            <div class="attraction-content">
-                <h3>สถานที่ท่องเที่ยว 2</h3>
-                <p>รายละเอียดเกี่ยวกับสถานที่ท่องเที่ยว 2</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== Contact Form ========== -->
-    <section class="contact-section" id="contact">
+    <!-- ========== Contact Section ========== -->
+    <section class="contact-section">
         <div class="container">
             <div class="contact-container">
                 <div class="contact-info">
                     <h3>ติดต่อเรา</h3>
-                    <p>หากคุณมีคำถามหรือต้องการข้อมูลเพิ่มเติม สามารถติดต่อเราผ่านแบบฟอร์มด้านล่าง.</p>
+                    <p>หากคุณมีคำถามหรือต้องการข้อมูลเพิ่มเติม โปรดติดต่อเราได้ที่นี่</p>
+                    <ul>
+                        <li>โทรศัพท์: 123-456-7890</li>
+                        <li>อีเมล์: contact@website.com</li>
+                        <li>ที่อยู่: ถนน XYZ, กรุงเทพมหานคร</li>
+                    </ul>
                 </div>
                 <div class="contact-form">
-                    <form action="#" method="POST">
+                    <form action="#">
                         <div class="form-group">
                             <label for="name">ชื่อ</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">อีเมล</label>
+                            <label for="email">อีเมล์</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
@@ -103,20 +87,28 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h3>เกี่ยวกับเรา</h3>
-                <p>เว็บไซต์ท่องเที่ยวลำปาง เพื่อการศึกษาและความบันเทิง</p>
+                <p>เราคือบริษัทที่ให้บริการต่างๆ ที่ช่วยให้ธุรกิจของคุณเติบโต</p>
             </div>
             <div class="footer-section">
-                <h3>ติดต่อ</h3>
+                <h3>ลิงค์สำคัญ</h3>
                 <ul>
-                    <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a href="tel:+66612345678">+66 612 345 678</a></li>
+                    <li><a href="#">หน้าหลัก</a></li>
+                    <li><a href="#">เกี่ยวกับเรา</a></li>
+                    <li><a href="#">บริการ</a></li>
+                    <li><a href="#">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>ติดต่อเรา</h3>
+                <ul>
+                    <li>โทรศัพท์: 123-456-7890</li>
+                    <li>อีเมล์: contact@website.com</li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 ทุกรายการสงวนลิขสิทธิ์</p>
+            <p>&copy; 2026 เว็บไซต์ของเรา | ทุกสิทธิ์สงวน</p>
         </div>
     </footer>
-
 </body>
 </html>
